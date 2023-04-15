@@ -1,0 +1,111 @@
+
+
+.container .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.container .products .product-card { 
+    margin: 20px;
+    height: 30%;
+    background-color: rgb(151, 149, 149);
+    border: 5px solid rgb(65, 63, 63);
+   border-radius: 10px 50px;
+    padding: 15px;
+    
+}
+
+.slider{
+  
+    display: flex;
+    margin: 60px 50px;
+    padding: 15px;
+    cursor: pointer;
+    justify-content: space-between;
+
+   
+}
+.slider span{
+    border-radius:100%;
+    padding: 15px;
+    background-color: rgb(66, 60, 66);
+    color: rgb(65, 7, 7);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+     margin: 50px 0px;
+
+}
+.rebtn{
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(75, 6, 6);
+    border-radius: 60%;
+    background-color: rgb(133, 130, 130);
+   
+}
+
+
+
+.container .products .product-card .imgbtn {
+    cursor: pointer;
+    width: 7%;
+    height: 100%;
+    border: none;
+ }
+ 
+ .container .products .product-card .imgbtn .theImg {
+     width: 100%;
+     height: 100%;
+ }
+
+
+
+ .container .products .product-card .brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px 0 0 0; */
+
+}
+
+.container .products .product-card .brand h1{
+  
+    color: rgb(75, 6, 6);
+}
+
+.container .products .product-card .brand span{
+    font-size: 22px;
+    color: rgb(77, 74, 74);
+}
+
+.container .search-input {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px ;
+    justify-content: space-between;
+
+}
+
+.container .search-input input {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border: 1.5px solid rgb(60, 60, 61);
+    border-radius: 30%;
+    width: 80%;
+    color: rgb(78, 2, 2);
+    background-color: rgba(189, 180, 180, 0.705);
+    outline: none;
+}
+
+.container .search-input button {
+    padding: 10px;
+    border: none;
+    color: rgb(75, 6, 6);
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 100px;
+}
